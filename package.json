@@ -1,0 +1,19 @@
+{
+  "name": "2026aprilpwsession",
+  "version": "1.0.0",
+  "description": "Playwright Practice Project",
+  "main": "index.js",
+  "scripts": {
+    "Equity": "npx playwright codegen https://oneequity-uat.equitygroupholdings.com/en/access/login",
+    "NLogin": "https://naveenautomationlabs.com/opencart/index.php?route=account/login",
+    "NRegister": "https://naveenautomationlabs.com/opencart/index.php?route=account/register"
+  },
+  "keywords": [],
+  "author": "Martins Adeyeye",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.2.0"
+  }
+}
